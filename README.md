@@ -8,8 +8,8 @@ Runs the Shiu et al. (2024, *Nature*) whole-brain leaky integrate-and-fire model
 |---|---|---|
 | 1 | Reproduce the paper's headline: sugar GRNs at 100 Hz drive proboscis motor neuron MN9 | MN9 at 69 Hz vs. authors' 67 Hz |
 | 2 | Inject one-hot character codes into 500 random central-brain neurons, 100 ms, ridge readout on spike counts | 99.6 % accuracy from downstream neurons |
-| 3 | Degree-preserving shuffled-connectome control | Shuffled network decodes *better* per neuron; wiring spreads activity, shuffle concentrates it |
-| 4 | Render letter glyphs onto 1,307 right-eye R1-6 photoreceptors ("the fly reads text") | 93.1 % accuracy; errors are visually similar letters (B/P/R, E/F); nothing reaches the central brain in 100 ms |
+| 3 | Degree-preserving shuffled-connectome control | Shuffled network decodes *better* per neuron. Wiring spreads activity and shuffle concentrates it |
+| 4 | Render letter glyphs onto 1,307 right-eye R1-6 photoreceptors ("the fly reads text") | 93.1 % accuracy; errors are visually similar letters (B/P/R, E/F) |
 
 ## 2. `nwb_dandi_intro.ipynb`
 
