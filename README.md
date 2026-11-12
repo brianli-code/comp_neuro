@@ -16,6 +16,6 @@ Runs the [Shiu et al. (2024, *Nature*)](https://github.com/philshiu/Drosophila_b
 - **NWB** (Neurodata Without Borders): an HDF5-based file format where data and the metadata needed to read it live in the same file (`subject`, `electrodes`, `trials`, `units`, `TimeSeries`).
 - **DANDI**: the public archive that hosts NWB files as versioned Dandisets on S3.
 
-The notebook streams a mouse motor-cortex recording (Dandiset 000006) straight from the archive without downloading it, reads the `trials` and `units` tables into pandas, plots a trial-aligned spike raster, then writes and validates a toy NWB file from scratch.
+The notebook streams a mouse motor-cortex recording ([Dandiset 000006](https://dandiarchive.org/dandiset/000006?search=000006&pos=2)) straight from the archive without downloading it, reads the `trials` and `units` tables into pandas, plots a trial-aligned spike raster, then writes and validates a toy NWB file from scratch.
 
 **Requirements:** `pynwb dandi remfile h5py`. Designed for Google Colab.
